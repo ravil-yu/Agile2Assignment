@@ -7,7 +7,11 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/ravil-yu/Agile2Assignment', branch: 'master' 
+<<<<<<< HEAD
+                git url: 'https://github.com/ravil-yu/Agile2Assignment.git', branch: 'master' 
+=======
+                git url: 'https://github.com/ravil-yu/MyProject.git', branch: 'master' 
+>>>>>>> test
             }
         }
         stage('Build & Test') {
